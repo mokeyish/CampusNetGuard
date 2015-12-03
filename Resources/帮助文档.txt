@@ -1,0 +1,19 @@
+﻿
+关于全自动化，设置方法，第一部在程序设置界面，开启安装服务，并且开启自动认证，然后配置网页登陆注销的帐号和密码，重启电脑即可在电脑登陆桌面之前就会连好网，电脑注销也不会断网.
+
+部分配置相关解释
+PcapName		记录上次使用的网卡，请勿随意手动修改
+IsAutoEap		自动认证
+
+IsCompactMemory 	内存紧凑模式，会不时自我清理内存
+ExampleHosts		用于测试网络是否连通的服务主机名
+CheckTimeInterval	检查网络连通的时间间隔
+EapRetryTimes		立即收到服务器断网信息，立即重试次数
+
+网页认证部分
+WebUris			自定义网页认证的登录地址和注销地址（仅当IsDefaultWebUri为false时可用）
+IsDefaultWebUri		默认为true，即使用默认的地址进行网络登录
+IsAutoWeb		自动网页认证（当各项配置全是就可以在断网的时候，执行自动登录）
+WebUsername		网页认证的帐号（仅当IsDefaultWebUri为true时可用）
+WebPassword		网页认证的密码（仅当IsDefaultWebUri为true时可用）
+WlanAcIp		区域网络Ip地址，应该每个学校是不同的，这个会自动获取的
