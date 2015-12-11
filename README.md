@@ -1,7 +1,7 @@
 # CampusNetGuard
 c#校园网认证客户端
 
-环境：.netframework4.5（win7/win8/win10）
+环境：.net framework4.5（win7/win8/win10）
 
 作者：mokeyish
 
