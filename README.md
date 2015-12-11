@@ -1,9 +1,13 @@
 # CampusNetGuard
-
+c#校园网认证客户端
+环境：.netframework4.5
+作者：mokeyish
+QQ：21954595
+开发工具v2013或vs2015
 #功能介绍
-c#校园网认证客户端, 需要.netframework4.5，开发工具v2013或vs2015
+软件可以以两种模式运行，一种是运行在后台服务里消耗资源极低；一种是普通客户端模糊。
 
-如有更好的改进，请联系我q21954595，我更新此处代码
+#编译版
 
-编译版的下载地址http://pan.baidu.com/s/1jGk45PO
+下载地址http://pan.baidu.com/s/1jGk45PO
 
